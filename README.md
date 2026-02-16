@@ -11,9 +11,9 @@ $> make
 The `VERSION` variable can be overridden by explicitly providing the `VERSION` environment variable to all Makefile targets, like so:
 
 ```bash
-$> VERSION=1.24rc2 make
+$> VERSION=3.9.4 make
 
-$> VERSION=1.24rc2 make deb
+$> VERSION=3.9.4 make deb
 ```
 
 To build a deb package for Ubuntu or Debian based Linux distributions, run the Makefile as follows:
